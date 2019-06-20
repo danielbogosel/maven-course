@@ -5,6 +5,7 @@
     <groupId>ro.itschool</groupId>
     <artifactId>mvn-base</artifactId>
     <version>1.0</version>
+
     <name>mvn-base</name>
     <description>Maven Base configuration for Java Projects</description>
 
@@ -14,6 +15,12 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.github.lalyos</groupId>
+            <artifactId>jfiglet</artifactId>
+            <version>0.0.8</version>
+        </dependency>
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
